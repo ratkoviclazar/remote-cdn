@@ -10,5 +10,8 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'my-component',
     },
+    rollupOptions: {
+      external: [],  // Ensure React is bundled in the build
+    },
   },
 });
