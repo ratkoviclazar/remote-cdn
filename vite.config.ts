@@ -10,8 +10,5 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'my-component',
     },
-    rollupOptions: {
-      external: ['react', 'react-dom'], // Don't bundle React
-    },
   },
 });
